@@ -1,0 +1,116 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{DFMV13}
+
+\bibitem[BGI{\etalchar{+}}01]{Barak-CRYPTO-2001}
+Boaz Barak, Oded Goldreich, Russell Impagliazzo, Steven Rudich, Amit Sahai,
+  Salil~P. Vadhan, and Ke~Yang.
+\newblock On the (im)possibility of obfuscating programs.
+\newblock In {\em Advances in Cryptology - {CRYPTO} 2001}, volume 2139 of {\em
+  LNCS}, pages 1--18. Springer, 2001.
+
+\bibitem[BW13]{BW-ASIACRYPT-2013}
+Dan Boneh and Brent Waters.
+\newblock Constrained pseudorandom functions and their applications.
+\newblock In {\em Advances in Cryptology - ASIACRYPT 2013}, volume 8270 of {\em
+  LNCS}, pages 280--300. Springer, 2013.
+
+\bibitem[CQX18]{Chen-CT-RSA-2018}
+Yu~Chen, Baodong Qin, and Haiyang Xue.
+\newblock Regularly lossy functions and their applications.
+\newblock In {\em Topics in Cryptology - CT-RSA 2018}, pages 491--511, 2018.
+
+\bibitem[CS02]{CS-EUROCRYPT-2002}
+Ronald Cramer and Victor Shoup.
+\newblock Universal hash proofs and a paradigm for adaptive chosen ciphertext
+  secure public-key encryption.
+\newblock In {\em Advances in Cryptology - EUROCRYPT 2002}, pages 45--64, 2002.
+
+\bibitem[CWZ18]{Chen-ASIACRYPT-2018}
+Yu~Chen, Yuyu Wang, and Hong{-}Sheng Zhou.
+\newblock Leakage-resilient cryptography from puncturable primitives and
+  obfuscation.
+\newblock In {\em Advances in Cryptology - {ASIACRYPT} 2018}, pages 575--606,
+  2018.
+
+\bibitem[CZ14]{Chen-SCN-2014}
+Yu~Chen and Zongyang Zhang.
+\newblock Publicly evaluable pseudorandom functions and their applications.
+\newblock In {\em 9th International Conference on Security and Cryptography for
+  Networks, SCN 2014}, pages 115--134, 2014.
+
+\bibitem[DDN91]{DDN-STOC-1991}
+Danny Dolev, Cynthia Dwork, and Moni Naor.
+\newblock Non-malleable cryptography (extended abstract).
+\newblock In {\em STOC}, pages 542--552. ACM, 1991.
+
+\bibitem[DFMV13]{DFMV-ASIACRYPT-2013}
+Ivan Damg{\aa}rd, Sebastian Faust, Pratyay Mukherjee, and Daniele Venturi.
+\newblock Bounded tamper resilience: How to go beyond the algebraic barrier.
+\newblock In {\em Advances in Cryptology - {ASIACRYPT} 2013}, volume 8270 of
+  {\em LNCS}, pages 140--160. Springer, 2013.
+
+\bibitem[KMO10]{KMO-EUROCRYPT-2010}
+Eike Kiltz, Payman Mohassel, and Adam O'Neill.
+\newblock Adaptive trapdoor functions and chosen-ciphertext security.
+\newblock In {\em Advances in Cryptology - EUROCRYPT 2010}, pages 673--692,
+  2010.
+
+\bibitem[NS09]{NS-CRYPTO-2009}
+Moni Naor and Gil Segev.
+\newblock Public-key cryptosystems resilient to key leakage.
+\newblock In {\em Advances in Cryptology - CRYPTO 2009}, volume 5677 of {\em
+  LNCS}, pages 18--35. Springer, 2009.
+
+\bibitem[NY90]{NY-STOC-1990}
+Moni Naor and Moti Yung.
+\newblock Public-key cryptosystems provably secure against chosen ciphertext
+  attacks.
+\newblock In {\em Proceedings of the 22th Annual ACM Symposium on Theory of
+  Computing, STOC 1990}, pages 427--437. ACM, 1990.
+
+\bibitem[PW08]{PW-STOC-2008}
+Chris Peikert and Brent Waters.
+\newblock Lossy trapdoor functions and their applications.
+\newblock In {\em Proceedings of the 40th Annual ACM Symposium on Theory of
+  Computing, STOC 2008}, pages 187--196, 2008.
+
+\bibitem[QL13]{QL-ASIACRYPT-2013}
+Baodong Qin and Shengli Liu.
+\newblock Leakage-resilient chosen-ciphertext secure public-key encryption from
+  hash proof system and one-time lossy filter.
+\newblock In {\em Advances in Cryptology - {ASIACRYPT} 2013}, volume 8270 of
+  {\em LNCS}, pages 381--400. Springer, 2013.
+
+\bibitem[RS09]{RS-TCC-2009}
+Alon Rosen and Gil Segev.
+\newblock Chosen-ciphertext security via correlated products.
+\newblock In {\em Theory of Cryptography, 6th Theory of Cryptography
+  Conference, {TCC} 2009}, volume 5444 of {\em LNCS}, pages 419--436. Springer,
+  2009.
+
+\bibitem[Sah99]{Sahai-FOCS-1999}
+Amit Sahai.
+\newblock Non-malleable non-interactive zero knowledge and adaptive
+  chosen-ciphertext security.
+\newblock In {\em FOCS 1999}, pages 543--553. ACM, 1999.
+
+\bibitem[SW14]{SW-STOC-2014}
+Amit Sahai and Brent Waters.
+\newblock How to use indistinguishability obfuscation: deniable encryption, and
+  more.
+\newblock In {\em Symposium on Theory of Computing, STOC 2014}, pages 475--484.
+  ACM, 2014.
+
+\bibitem[Wee10]{Wee-CRYPTO-2010}
+Hoeteck Wee.
+\newblock Efficient chosen-ciphertext security via extractable hash proofs.
+\newblock In {\em Advances in Cryptology - CRYPTO 2010}, volume 6223, pages
+  314--332, 2010.
+
+\bibitem[Wee16]{Wee-PKC-2016}
+Hoeteck Wee.
+\newblock Kdm-security via homomorphic smooth projective hashing.
+\newblock In {\em Public-Key Cryptography - {PKC} 2016}, volume 9615 of {\em
+  LNCS}, pages 159--179. Springer, 2016.
+
+\end{thebibliography}

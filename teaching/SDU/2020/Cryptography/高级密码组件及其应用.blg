@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: 高级密码组件及其应用.aux
+The style file: alpha.bst
+Database file #1: /Users/chenyu/Documents/Research/PaperEngine/bib/mycrypto.bib
+I was expecting a `,' or a `}'---line 702 of file /Users/chenyu/Documents/Research/PaperEngine/bib/mycrypto.bib
+ :    
+ :    booktitle = {Talk at Workshop on Probabilistically Checkable and Interactive Proofs, STOC 2017 Theory Fest},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 5969 of file /Users/chenyu/Documents/Research/PaperEngine/bib/mycrypto.bib
+ :   
+ :   series    = {LNCS},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 6156 of file /Users/chenyu/Documents/Research/PaperEngine/bib/mycrypto.bib
+ :   
+ :   series    = {Lecture Notes in Computer Science},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7402 of file /Users/chenyu/Documents/Research/PaperEngine/bib/mycrypto.bib
+ :     
+ :     year = {2015},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 7441 of file /Users/chenyu/Documents/Research/PaperEngine/bib/mycrypto.bib
+ :     
+ :     note  = {\url{https://bitcoin.org/en/alert/2015-07-04-spv-mining}},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You've used 18 entries,
+            2543 wiz_defined-function locations,
+            685 strings with 7812 characters,
+and the built_in function-call counts, 9803 in all, are:
+= -- 1008
+> -- 371
+< -- 29
++ -- 125
+- -- 125
+* -- 638
+:= -- 1405
+add.period$ -- 65
+call.type$ -- 18
+change.case$ -- 116
+chr.to.int$ -- 18
+cite$ -- 18
+duplicate$ -- 470
+empty$ -- 789
+format.name$ -- 145
+if$ -- 2248
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 18
+newline$ -- 94
+num.names$ -- 54
+pop$ -- 136
+preamble$ -- 1
+purify$ -- 134
+quote$ -- 0
+skip$ -- 431
+stack$ -- 0
+substring$ -- 601
+swap$ -- 205
+text.length$ -- 29
+text.prefix$ -- 3
+top$ -- 0
+type$ -- 144
+warning$ -- 0
+while$ -- 87
+width$ -- 21
+write$ -- 256
+(There were 5 error messages)
