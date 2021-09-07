@@ -17,6 +17,8 @@
 * Dona Dona
 * Diamonds and Rust
 * Five Hundred Miles
+* Moonlight Shadow
+* Yesterday Once More
 
 ### Rod Stewart
 * Sailing
