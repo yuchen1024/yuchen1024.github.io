@@ -9,6 +9,9 @@
 ### 赵雷
 * 画
 * 阿刁
+* 成都
+* 家乡
+* 理想
 
 ### 华北浪革 刘森
 * 深海
@@ -30,7 +33,11 @@ https://space.bilibili.com/580821118
 * Dona Dona
 * Diamonds and Rust
 * Five Hundred Miles
+
+### Dana Winner
 * Moonlight Shadow
+
+### Carpenter
 * Yesterday Once More
 
 ### Rod Stewart
