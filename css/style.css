@@ -1,0 +1,68 @@
+/* 全局样式 */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+}
+
+.center-container {
+  text-align: center;
+}
+
+/* 内容容器：控制阅读宽度 + 居中 */
+.container {
+  margin: 0 auto;      /* ✅ 自动居中 */
+  padding: 0 60px;     /* ✅ 两边留白，避免文字贴边 */
+}
+
+/* 列表样式 */
+ul {
+  margin: 1em 0;
+  padding-left: 2em;
+  list-style-type: disc;
+}
+
+ul li {
+  margin: 0.5em 0;
+}
+
+/* 导航栏 */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.2em;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+nav a:hover {
+  color: #007acc;
+}
+
+.profile-section {
+  display: flex;
+  justify-content: space-between; /* 左右分散 */
+  align-items: center;        /* 顶部对齐 */
+  gap: 20px;                      /* 中间留白 */
+}
+
+.profile-text {
+  flex: 1;            /* 左边占满空间 */
+  text-align: left;
+}
+
+.profile-image {
+  flex-shrink: 0;     /* 照片固定大小，不被压缩 */
+  text-align: right;
+}

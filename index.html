@@ -1,751 +1,87 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yu Chen</title>
+  <meta name="author" content="Yu Chen">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<html>
-    <head>
-    <title>Yu Chen</title>
-    <link rel="stylesheet" href="docs/style.css">
-    <meta name="AUTHOR" content="Home page of Yu Chen">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" name="viewport" />
+  <!-- 外部CSS文件 -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- 引入Lato字体 -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
-<script type="text/javascript">
-
-var phoneWidth =  parseInt(window.screen.width);
-
-var phoneScale = phoneWidth/640;
-
-var ua = navigator.userAgent;
-
-if (/Android (d+.d+)/.test(ua)){var version = parseFloat(RegExp.$1);
-
-if(version>2.3){ document.write(‘<meta name="viewport" content="width=640, minimum-scale = ‘+phoneScale+‘, maximum-scale = ‘+phoneScale+‘, target-densitydpi=device-dpi">‘); }
-
-else{document.write(‘<meta name="viewport" content="width=640, target-densitydpi=device-dpi">‘); }
-
-else { document.write(‘<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">‘); }
-
-</script>
-
-<style>
-    ul li{
-        font-family: Lato;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: normal;
-        font-variant: normal;
-        font-weight: 400;
-        line-height: 24px;
-        margin: 10px 0;
-    }
-</style>
-
 <body>
-    <!--  <div style="height:10px; background:#dddddd;"></div> -->
-    <!--  <div class="swidth"  style="padding-right: 80px;  padding-left: 80px;  background:#dddddd;"> -->
-    <div style=font-size:18px>
-    <div class="swidth"  style="padding-right: 50px;  padding-left: 50px;">  
-    <!-- <body class="home blog custom-background single-author one-column content">
-    <div id="container" class="runo-background"> -->
 
-    <center><h1>Yu Chen (陈宇)</h1></center>
+<header class="center-container">
+  <h1>Yu Chen (陈宇)</h1>
+</header>
+
+
+
+<main class="container">
+
+<hr>
+
+    <section class="profile-section">
+    <div class="profile-text">
+        <h2>Professor (PhD Supervisor)</h2>
+        <p>
+            <a href="http://cst.qd.sdu.edu.cn/">School of Cyber Science and Technology</a>,
+            <a href="http://www.sdu.edu.cn/">Shandong University</a><br>
+            Email: yuchen.prc [at] gmail [dot] com<br>
+            Office: Room 0324, Ganchang Building<br>
+            Curriculum Vitae <strong>[<a href="docs/CV/CV_20200303_en.pdf">en</a>]</strong>
+            <strong>[<a href="docs/CV/CV_20200303_cn.pdf">cn</a>]</strong><br>
+            <a href="https://orcid.org/0000-0003-2553-1281">ORCID: 0000-0003-2553-1281</a>
+        </p>
+    </div>
+    <div class="profile-image">
+        <img src="images/monaco.png" alt="Yu Chen" height="200" width="360">
+    </div>
+    </section>
+
     <hr>
 
-    <table width="100%"><tr>
-    <td>
-    <p>
-        <!--<h3>Associated Professor (PhD Supervisor)</h3>
-        <a href="http://sklois.iie.cas.cn">State Key Laboratory of Information Security (SKLOIS)</a><br>
-        <a href="http://www.iie.ac.cn">Institute of Information Engineering</a>, 
-        <a href="http://www.cas.cn">Chinese Academy of Sciences</a><br> 
-        <a href="http://http://scs.ucas.ac.cn/index.php/zh-cn/">School of Cyber Security</a>, 
-        <a href="http://www.ucas.ac.cn/">University of Chinese Academy of Sciences</a><br>-->
-        <h2>Professor (PhD Supervisor)</h2>
-        <a href="http://cst.qd.sdu.edu.cn/">School of Cyber Science and Technology</a>, 
-        <a href="http://www.sdu.edu.cn/">Shandong University</a>
-        <br>
-    </p>
+    <section class="content-section">
+    <h2>Research Interests</h2>
+        <p> 
+            Theory and applications of cryptography in general, 
+            with emphasis on fundamental primitives and their applications to the design of highly efficient, 
+            secure and functional cryptosystems. Please click <a href="docs/研究方向介绍.pdf">here</a> for an overview. 
+        </p>
 
-    <p>
-        Email: yuchen.prc [at] gmail [dot] com<br>
-        Office: Room 0324, Ganchang Building<br>
-    </p>
+        <ul>
+            <li> Advanced Security: chosen-ciphertext security, key-dependent message security, leakage/tampering resilience 
+            <li> Zero-Knowledge Protocols
+            <li> Secure Multiparty Computation
+        </ul>
 
-    <p>
-        Curriculum Vitae <strong>[<a href="docs/CV/CV_20200303_en.pdf">en</a>]</strong> 
-        <strong>[<a href="docs/CV/CV_20200303_cn.pdf">cn</a>]</strong><br>
-        <a href="https://orcid.org/0000-0003-2553-1281">ORCID: 0000-0003-2553-1281</a> 
-    </p>
-    </td>
-    <td><img src="docs/monaco.png" alt="monaco" align="right" height="180" width="326" hspace="4" vspace="10"></td>
-    </tr></table>
-<hr>
-
-<h2>Research Interests</h2>
-<p> 
-<!--Provably secure cryptography in general, with particular focus on fundamental primitives 
-and their applications to high-level protocols.--> 
-Theory and applications of cryptography in general, 
-with emphasis on fundamental primitives and their applications to the design of highly efficient, 
-secure and functional cryptosystems. Please click <a href="docs/研究方向介绍.pdf">here</a> for an overview. 
-</p>
-
-<ul>
-    <li> Advanced Security: chosen-ciphertext security, key-dependent message security, leakage/tampering resilience 
-    <li> Zero-Knowledge Protocols
-    <li> Secure Multiparty Computation
-</ul>
-
-<p> 
-Recently, I am working on zero-knowledge proofs and secure multiparty computation. 
-I am always looking for motivated students, please send me an email with your CV if you are interested in working with me! <br> 
-(<a href="student/recruitment.html">中文版课题组简介与招生信息</a>) 
-</p>
+        <p> 
+            Recently, I am working on public-key cryptography, zero-knowledge proofs and secure multiparty computation. 
+            I am always looking for motivated students, please send me an email with your CV if you are interested in working with me! 
+            (<a href="recruitment.html">中文版课题组简介与招生信息</a>) <br> 
+        </p>
+    </section>
 
 <hr>
 
-<h2>Working Experience</h2>
-<ul>
-    <li> 2019.12 - Present: Shandong University
-    <li> <font color=gray>2019.06 - 2019.12: Ant Financial</font>
-    <li> 2011.07 - 2019.06: SKLOIS, IIE, CAS
-    <li> <font color=gray>2015.08 - 2016.01: Postdoc at <a href="http://www.cuhk.edu.hk/">CUHK</a>, 
-        hosted by <a href="https://staff.ie.cuhk.edu.hk/~smchow/">Sherman S. M. Chow</a></font>
-    <li> 2008.02 - 2008.08: Research Intern at IBM CRL (The Next Generation Group)
-</ul>
+<div class="center-container">
+  <h3>
+    [<a href="publications.html">Publications</a>] 
+    [<a href="talks.html">Talks</a>] 
+    [<a href="patents/patents.html">Patents</a>]
+    [<a href="fundings.html">Fundings</a>] 
+    [<a href="awards.html">Awards</a>]
+    [<a href="service.html">Service</a>] 
+    [<a href="teaching/teaching.html">Teaching</a>]
+    [<a href="students.html">Students</a>]
+    [<a href="misc.html">Misc</a>] 
+  </h3>
+</div>
 
 <hr>
-
-<h2>Education</h2>
-<ul>
-<li> 2006.09 - 2011.07: <a href="http://eecs.pku.edu.cn/">School of EECS</a>, 
-<a href="http://www.pku.edu.cn/">Peking University</a>, 
-Ph.D. in Computer Science (Advisor <a href="http://infosec.pku.edu.cn/~zchen/">Zhong Chen</a>)
-
-<li> 2009.09 - 2010.09: <a href="http://www.computing.dcu.ie/">School of Computing</a>, 
-<a href="http://www.dcu.ie/">Dublin City University</a>, 
-CSC Joint Ph.D. Program (Advisor <a href="https://ie.linkedin.com/in/michael-scott-92b7bb78">Michael Scott</a>)
-
-<li> 2002.09 - 2006.07: <a href="http://ci.hfut.edu.cn/">School of Computer Science and Engineering</a>, 
-<a href="http://www.hfut.edu.cn/">Hefei University of Technology</a>, 
-Bachelor in Information Security.
-</ul>
-
-<hr>
-
-<h2>Teaching</h2>
-<ul>
-<li> Autumn 2025: <a href="teaching/SDU/2025/Crypto/theoretical_cryptography.html">(Graduate) Theoretical Cryptography</a>
-<li> Autumn 2025: <a href="teaching/SDU/2025/Algorithms/algorithms.html">(Undergraduate) Design and Analysis of Algorithms</a>
-<li> Autumn 2024: <a href="teaching/SDU/2024/Crypto/theoretical_cryptography.html">(Graduate) Theoretical Cryptography</a>
-<li> Autumn 2024: <a href="teaching/SDU/2024/Algorithms/algorithms.html">(Undergraduate) Design and Analysis of Algorithms</a>
-<li> Autumn 2023: <a href="teaching/SDU/2023/Crypto/theoretical_cryptography.html">(Graduate) Theoretical Cryptography</a>
-<li> Autumn 2023: <a href="teaching/SDU/2023/Algorithms/algorithms(autumn).html">(Undergraduate) Design and Analysis of Algorithms</a>
-<li> Autumn 2022: <a href="teaching/SDU/2022/Crypto/theoretical_cryptography.html">(Graduate) Theoretical Cryptography</a>
-<li> Autumn 2022: <a href="teaching/SDU/2022/Algorithms/algorithms(autumn).html">(Undergraduate) Design and Analysis of Algorithms</a>
-<li> Spring 2022: <a href="teaching/SDU/2022/Algorithms/algorithms(spring).html">(Undergraduate) Design and Analysis of Algorithms</a>
-<li> Autumn 2021: <a href="teaching/SDU/2021/Crypto/theoretical_cryptography.html">(Graduate) Theoretical Cryptography</a> 
-<li> Spring 2021: <a href="teaching/SDU/2021/Algorithms/algorithms.html">(Undergraduate) Design and Analysis of Algorithms</a>
-<li> Autumn 2020: <a href="teaching/SDU/2020/Cryptography/theoretical_cryptography.html">
-(Graduate) Theoretical Cryptography</a> 
-<li> Spring 2020: <!--<a href="teaching/SDU/2020/Algorithms/algorithms.html">-->(Undergraduate) Design and Analysis of Algorithms</a>     
-</ul>
-
-<hr>
-
-<ul>
-<li> Summer 2019: <a href="teaching/UCAS/2019_summer_advanced_cryptography/2019_summer_advanced_cryptography.html">
-(Graduate) Advanced Cryptographic Primitives and Applications</a> 
-<li> Autumn 2018: (Graduate) Theoretical Foundations of Cryptography
-<li> Summer 2018: (Graduate) Advanced Cryptographic Primitives and Applications
-<li> Spring 2018: <a href="teaching/UCAS/2018_spring_theoretical_cryptography/2018_spring_theoretical_cryptography.html">(Graduate) Theoretical Foundations of Cryptography</a> 
-<li> Spring 2017: <a href="teaching/UCAS/2017_spring_theoretical_cryptography/2018_spring_theoretical_cryptography.html">(Graduate) Theoretical Foundations of Cryptography</a> 
-</ul>
-<hr>
-
-<h2>Professional Activities</h2>
-<ul>
-<li> General PC Chair: Inscrypt 2021
-<li> Program Committee: PKC 2025, Inscrypt (2014, 2018, 2019, 2022, 2024), Provsec (2016, 2024), CANS 2017, SSR 2024, ESORICS (2020, 2021, 2022)
-<li> Reviewer: Asiacrypt (2012, 2013, 2016, 2017), PKC (2018, 2019)
-</ul>
-<hr>
-
-<h2>Selected Funded Projects</h2>
-<ul>
-
-<li> 中组部万人计划青年拔尖人才 (2023.01-2025.12, 140万)
-
-<li> 泰山学者青年专家项目 (2022.07.01-2025.06.30, 75万)  
-
-<li> <a href="http://www.yicas.cn/">中国科学院青年创新促进会会员</a> (2017.01-2020.12)
-
-<li> NSFC面上项目: 隐私计算中的关键密码技术研究 (No.62272269, 2023.01-2026.12, 55万) 
-
-<li> NSFC面上项目: 身份加密体制的消息依赖密钥安全研究 (No.61772522, 2018.01-2021.12, 58万) 
-
-<li> NSFC青年项目: 抗泄漏的函数加密体制研究 (No.61303257, 2014.01-2016.12, 25万) 
-
-<li> NSFC重点项目: 量子计算环境下的公钥密码及复杂性理论研究 (No.61932019, 2020.01-2024.12, 297万, 排序2/10)
-
-<li> 国家重点研发计划: 自主可控的区块链高延展共识机制设计-区块链系统的关键密码理论及系统设计 (2021YFA1000603, 2021.12-2026.11, 389万, 排序2/8)
-
-<li> 密码科学技术国家实验室开放课题重点项目: 非交互式零知识证明及其在密码货币中的应用 (2021.07-2024.06, 30万)
-
-<li> 密码科学技术国家实验室开放课题面上项目: 抗泄漏密码体制的若干关键问题研究 (2018.06-2020.06, 10万)
-</ul>
-
-<hr>
-
-<h2>Awards</h2>
-<ul>
-<li> <a href="https://mp.weixin.qq.com/s/nzUPj6uq6c-nTMs4dk2w_A">
-《麻省理工科技评论》2022中国隐私计算科技创新人物</a>
-
-<li> <a href="https://www.fincryptography.pbcdci.cn/news/2022%E5%B9%B4%E2%80%9C%E9%87%91%E8%9E%8D%E5%AF%86%E7%A0%81%E6%9D%AF%E2%80%9D%E5%85%A8%E5%9B%BD%E5%AF%86%E7%A0%81%E5%BA%94%E7%94%A8%E5%92%8C%E6%8A%80%E6%9C%AF%E5%88%9B%E6%96%B0%E5%A4%A7%E8%B5%9B%E6%AF%94%E8%B5%9B%E7%BB%93%E6%9E%9C%E5%85%AC%E5%91%8A.html">
-2022 Fincrypto National Competition ("金融密码杯"全国密码应用和技术创新大赛): Outstanding Winner</a>
-
-<li> <a href="https://cst.qd.sdu.edu.cn/info/1037/1001.htm">
-2020 Fincrypto National Competition ("金融密码杯"全国密码应用和技术创新大赛): First Prize</a>
-
-<li> <a href="http://www.sklois.cn/xwzx/tpxw/201811/t20181119_458556.html">
-2018 China Cryptography Innovation Award: Second Prize</a>
-</ul>
-    
-<hr>
-
-<h2>Talks</h2>
-<ul>
-
-<li> <strong>Efficient Multi-Party Private Set Union Without Non-Collusion Assumptions</strong><br>
-    2025.08.09: 中国密码学会2025年密码算法会议<br>
-
-
-<li> <strong>Private Set Operations from mqRPMT</strong><br>
-    2022.12.10: 中国密码学会2022年会密码学前沿交叉论坛(线上)<br>
-    2022.12.31: 山东计算机学会2022年网络空间安全学术会议(线上)<br>
-    2023.11.02-11.11: 北航人大联合讨论班(线上)<br>
-    2023.12.15: 之江实验室(线上)<br>
-    2024.05.10: 重庆理工大学计算机科学与工程学院<br>
-    2024.08.03: 中国密码学会2024年安全协议进展国际会议<br>
-    2024.11.01: 中国密码学会2024年大数据与人工智能安全青年论坛<br>
-    2024.12.20: 合肥工业大学计算机学院<br>
-
-<li> <strong>Sigma Protocols from Verifiable Secret Sharing</strong><br>
-    2023.11.04: 杭州师范大学-2023前沿密码青年论坛<br>
-    2023.11.10: 蚂蚁集团-ZK Virtual Machine研讨会(线上)<br>
-    2023.11.18: 浙江工商大学-2023密码与安全前瞻性论坛<br>
-    2023.11.25: 国家区块链技术创新中心-零知识证明关键理论与技术发展学术研讨会(线上)<br>
-    2024.06.30: 数据安全与应用密码青年论坛<br>    
-    
-<li> <strong>Cryptographic Tools for Privacy</strong> <br> 
-    2017.11.25: Oracle Chain-Technique Salon<br> 
-    2022.06.17: 合肥工业大学<br>
-    2023.06.24: 北京市公安局
-
-<li> <strong>网络空间安全概论</strong> <br> 
-    2023.08.08: 天津市公安局
-   
-
-<li> <strong>Leakage-Resilient Cryptography from Puncturable Primitives and Obfuscation</strong><br>
-    2017.12.04: 摩石实验室<br>
-    2019.01.17: 陕西师范大学<br>
-
-<li> <strong>Introduction to Zero-Knowledge Proof Systems</strong><br>
-    2019.01.16: 西安邮电大学<br>
-    2017.06.23: 合肥工业大学<br>
-    2018.12.18: 区块链数学会议<br>
-</ul>
-<hr>
-
-
-<h2>Tutorials</h2>
-<ul>
-<li> <strong>实用化隐私保护计算协议的设计</strong>[<a href = "docs/CACR2025_Tutorial/2025高端培训内容简介-陈宇.docx">内容简介</a>]<br>
-    [<a href = "docs/CACR2025_Tutorial/Sigma-from-VSS.pdf">lec 1 - 零知识证明的设计理论</a>]<br>
-    [<a href = "docs/CACR2025_Tutorial/PPABC.pdf">lec 2 - 零知识证明在密码货币中的应用</a>]<br>
-    [<a href = "docs/CACR2025_Tutorial/PSO-intro.pdf">lec 3 - 隐私集合运算协议简介</a>]<br>
-    [<a href = "docs/CACR2025_Tutorial/linear-PSU.pdf">lec 4 - 隐私集合求并协议</a>]<br>
-    [<a href = "docs/CACR2025_Tutorial/PSO-from-mqRPMT.pdf">lec 5 - 隐私集合运算统一框架</a>]<br>
-    [<a href = "docs/CACR2025_Tutorial/PSO-extension.pdf">lec 6 - 隐私集合运算的扩展研究</a>]<br> 
-    2025.08: 中国密码学会密码学高端系列培训—隐私计算的密码理论与技术
-
-
-<li> <strong>高级密码组件及应用</strong><br> 
-    2022.07: <a href = "https://www.math.pku.edu.cn/amel/sqxx/143350.htm">北京大学应用数学专题讲习班在线举办</a>
-    
-<li> <strong>公钥加密的设计方法</strong><br> 
-    2015.12: <a href = "http://www.iie.ac.cn/xwdt_101144/kydt/201512/t20151217_4498306.html">中国密码学会密码学高端系列培训—公钥密码</a>
-
-
-
-</ul>
-<hr>
-
-<h2>Patents</h2>
-<ul>
-
-<li> 一种可监管的分布式机密交易系统及方法, 2020-1-1465650.5, 排序(1/1)
-    <strong>[<a href="patent/2020114656505 - ⼀种可监管的分布式机密交易系统及⽅法.pdf">授权书</a>]</strong>
-
-<li> 基于身份基加密的层级签名加密系统与构建方法, 2021-1-0430499.X, 排序(1/1) 
-    <strong>[<a href="patent/202110430499X - 基于⾝份基加密的层级签名加密系统与构建⽅法.pdf">授权书</a>]</strong>
-
-<li> 一种通用的层级签名加密系统与构建方法, 2021-1-0431894.X, 排序(1/1)
-    <strong>[<a href="patent/202110431894X - ⼀种通⽤的层级签名加密系统与构建⽅法.pdf">授权书</a>]</strong>
-
-<li> 一种基于非交互式零知识证明的可托管公钥加密系统及方法, 2021-1-0430319.8, 排序(1/1)
-    <strong>[<a href="patent/2021104303198 - ⼀种基于⾮交互式零知识证明的可托管公钥加密系统及⽅法.pdf">授权书</a>]</strong>
-
-<li> 基于非交互式密钥协商的可托管公钥加密系统及方法, 2021-1-0431893.5, 排序(1/1)
-    <strong>[<a href="patent/2021104318935 - 基于⾮交互式密钥协商的可托管公钥加密系统及⽅法.pdf">授权书</a>]</strong>
-
-<li> 基于可交换弱伪随机函数的隐私集合求并方法及系统, 2021-1-1501707.7, 排序(2/2)
-    <strong>[<a href="patent/2021115017077 - 基于可交换弱伪随机函数的隐私集合求并方法及系统.pdf">授权书</a>]</strong>
-
-<li> 基于全同态加密的隐私集合运算方法及系统, 2022-1-1026207.7, 排序(2/2)
-    <strong>[<a href="patent/2022110262077 - 基于全同态加密的隐私集合运算方法及系统.pdf">授权书</a>]</strong>
-
-<li> 一种支持更新的隐私集合求交集势与和的方法及系统, 2022-1-1647548.6, 排序(3/3)
-    <strong>[<a href="patent/2022116475486 - 一种支持更新的隐私集合求交集势与和的方法及系统.pdf">授权书</a>]</strong>
-
-<li> 一种分布式SM2适配器签名方法及系统, 2023-1-0304507.5, 排序(2/2)
-    <strong>[<a href="patent/2023103045075 - 一种分布式SM2适配器签名方法及系统.pdf">授权书</a>]</strong>
-
-</ul>
-
-<hr>
-<h2>Books</h2>
-<ul>
-<li><a href="https://item.jd.com/15089020.html">公钥加密的设计方法</a>
-<li><a href="https://item.jd.com/14819680.html">公钥密码学</a>
-<!-- <li><a href="docs/notes/HPS.pdf">浅谈哈希证明系统</a>
-<li><a href="docs/notes/LTDF.pdf">浅谈有损陷门函数</a> -->
-</ul>
-<hr>
-
-
-<h2>Publications</h2>
-
-<h3>2025</h3>
-<ul>
-
-<li><strong>Multi-Party Private Set Operations from Predicative Zero-Sharing</strong><br>
-Minglang Dong, Yu Chen, Cong Zhang, Yujie Bai, Yang Cao<br>
-ACM CCS 2025
-<strong>[<a href="https://eprint.iacr.org/2025/640">eprint</a>]</strong> 
-
-<li><strong>Fast Enhanced Private Set Union in the Balanced and Unbalanced Scenarios</strong><br>
-Binbin Tu, Yujie Bai, Cong Zhang, Yang Cao, Yu Chen<br>
-USENIX Security 2025 
-<strong>[<a href="https://eprint.iacr.org/2025/827">eprint</a>]</strong>
-
-
-<li><strong>Efficient Multi-Party Private Set Union Without Non-Collusion Assumptions</strong><br>
-Minglang Dong, Cong Zhang, Yujie Bai, Yu Chen<br>
-USENIX Security 2025 
-<strong>[<a href="https://eprint.iacr.org/2024/1146">eprint</a>]</strong> 
-<!-- <strong>[<a href="docs/slides/PSO-slide.pdf">slide</a>]</strong>
-<strong>[<a href="https://github.com/yuchen1024/Kunlun/tree/master/mpc/pso">code</a>]</strong> -->
-
-</ul>
-
-
-
-
-<h3>2024</h3>
-<ul>
-
-<li><strong>Unbalanced Private Set Union with Reduced Computation and Communication</strong><br>
-Cong Zhang, Yu Chen, Weiran Liu, Liqiang Peng, Meng Hao, Anyu Wang, Xiaoyun Wang<br>
-ACM CCS 2024 
-<strong>[<a href="https://eprint.iacr.org/2024/1340">eprint</a>]</strong> 
-
-
-<li><strong>Private Set Operations from Multi-Query Reverse Private Membership Test</strong><br>
-Yu Chen, Min Zhang, Cong Zhang, Minlang Dong, Weiran Liu<br>
-PKC 2024, LNCS, vol 14603, pp.387-416.  
-<strong>[<a href="https://eprint.iacr.org/2022/652">eprint</a>]</strong> 
-<strong>[<a href="docs/slides/PSO-slide.pdf">slide</a>]</strong>
-<strong>[<a href="https://github.com/yuchen1024/Kunlun/tree/master/mpc/pso">code</a>]</strong>
-
-
-<li><strong>Lattice-Based Programmable Hash Functions and Applications</strong><br>
-Jiang Zhang, Yu Chen, Zhenfeng Zhang<br>
-Journal of Cryptology, 2024, vol 37(4)(extended version of CRYPTO 2016)
-<strong>[<a href="https://eprint.iacr.org/2023/1849">eprint</a>]</strong> 
-
-<li><strong>公钥加密综述 (A Survey on Public-Key Encryption)</strong><br>
-陈宇, 易红旭, 王煜宇<br>
-密码学报 (Journal of Cryptologic Research), 2024, vol 11(1), pp.191-226. <strong>[<a href="http://www.jcr.cacrnet.org.cn/CN/10.13868/j.cnki.jcr.000676">link</a>]</strong> 
-
-<li><strong>可认证数据结构综述 (A Survey on Authenticated Data Structures)</strong><br>
-孔祥玉, 陈宇<br>
-密码学报 (Journal of Cryptologic Research), 2024, vol 11(3), pp.545-574. <strong>[<a href="http://www.jcr.cacrnet.org.cn/CN/10.13868/j.cnki.jcr.000695">link</a>]</strong> 
-
-<li><strong>隐私集合运算中的关键数据结构研究 (A Survey on Key Data Structures in Private Set Operation)</strong><br>
-张响鸰, 张聪, 刘巍然, 陈宇<br>
-密码学报 (Journal of Cryptologic Research), 2024, vol 11(2), pp.263-281. <strong>[<a href="http://www.jcr.cacrnet.org.cn/CN/10.13868/j.cnki.jcr.000679">link</a>]</strong> 
-
-<li><strong>Fast Two-Party Signature for Upgrading ECDSA to Two-Party Scenario Easily</strong><br>
-Binbin Tu, Yu Chen, Hongrui Cui, Xianfang Wang<br>
-Theoretical Computer Science, 2024, vol 986, pp.1-12. 
-<strong>[<a href="https://www.sciencedirect.com/science/article/abs/pii/S0304397523006382">link</a>]</strong>
-
-</ul>
-
-
-<h3>2023</h3>
-<ul>
-
-<li><strong>Fine-Grained Secure Attribute-Based Encryption</strong><br>
-Yuyu Wang, Jiaxin Pan, Yu Chen<br>
-Journal of Cryptology, 2023, vol 36(4) (extended version of CRYPTO 2021) <strong>[<a href="https://eprint.iacr.org/2023/1327">eprint</a>]</strong> 
-
-
-<li><strong>A Simple and Efficient Framework of Proof Systems for NP</strong><br>
-Yuyu Wang, Chuanjie Su, Jiaxin Pan, Yu Chen<br>
-ASIACRYPT 2023, LNCS, vol 14439, pp.174-207.
-<strong>[<a href="https://eprint.iacr.org/2023/1857">eprint</a>]</strong> 
-
-<li><strong>Sigma Protocols from Verifiable Secret Sharing and Their Applications</strong><br>
-Min Zhang, Yu Chen, Chuanzhou Yao, Zhicao Wang<br>
-ASIACRYPT 2023, LNCS, vol 14439, pp.208-242.
-<strong>[<a href="https://eprint.iacr.org/2023/1388">eprint</a>]</strong> 
-<strong>[<a href="docs/slides/Sigma-from-VSS.pdf">slide</a>]</strong>
-
-<li><strong>Fast Unbalanced Private Set Union from Fully Homomorphic Encryption</strong><br>
-Binbin Tu, Yu Chen, Qi Liu, Cong Zhang<br>
-ACM CCS, 2023, pp.2959-2973.
-<strong>[<a href="https://eprint.iacr.org/2022/653">eprint</a>]</strong> 
-
-<li><strong>Linear Private Set Union from Multi-Query Reverse Private Membership Test</strong><br>
-Cong Zhang, Yu Chen, Weiran Liu, Min Zhang, Dongdai Lin<br>
-USENIX Security, 2023, pp. 337-354. 
-<strong>[<a href="https://eprint.iacr.org/2022/358">eprint</a>]</strong> 
-<strong>[<a href="docs/slides/linear-PSU.pdf">slide</a>]</strong>
-
-<li><strong>支持批量证明的SM2适配器签名及其分布式扩展 (SM2-based Adaptor Signature with Batch Proofs and Its Distributed Extension)</strong><br>
-涂彬彬, 陈宇<br>
-软件学报 (Journal of Software), 2024, vol 35(5), pp.2566-2582. <strong>[<a href="http://www.jos.org.cn/jos/article/abstract/6912">link</a>]</strong> 
-
-</ul>
-
-<h3>2022</h3>
-<ul>
-
-<li><strong>You Can Sign but Not Decrypt: Hierarchical Integrated Encryption and Signature</strong><br>
-Min Zhang, Binbin Tu, Yu Chen<br>
-INSCRYPT 2022, LNCS, vol 13837, pp.67-86.
-<strong>[<a href="https://eprint.iacr.org/2022/1772">eprint</a>]</strong> 
-<strong>[<a href="docs/slides/HIES.pdf">slide</a>]</strong> 
-
-<li><strong>Efficient ECDSA-based Adaptor Signature for Batched Atomic Swaps</strong><br>
-Binbin Tu, Min Zhang, Yu Chen<br>
-ISC 2022, LNCS, vol 13640, pp.175-193. 
-<strong>[<a href="https://link.springer.com/chapter/10.1007/978-3-031-22390-7_12">springer</a>]</strong> 
-
-
-<li> <strong>Non-Malleable Functions and Their Applications</strong> <br>  
-Yu Chen, Baodong Qin, Jiang Zhang, Yi Deng, Sherman S. M. Chow <br>   
-Journal of Cryptology, 2022, vol 35(2) (extended version of PKC 2016)<strong>[<a href="https://link.springer.com/article/10.1007/s00145-022-09422-6">pdf</a>]</strong>
-</ul>
-
-
-<h3>2021</h3>
-<ul>
-
-<li><strong>Hierarchical Integrated Signature and Encryption 
-(or Key Separation vs. Key Reuse: Enjoy the Best of Both Worlds)</strong><br>
-Yu Chen, Qiang Tang, Yuyu Wang<br>
-ASIACRYPT 2021, LNCS, vol 13091, pp.514-543. 
-<strong>[<a href="https://eprint.iacr.org/2021/1237">eprint</a>]</strong>
-<strong>[<a href="docs/slides/HISE.pdf">slide</a>]</strong>
-<strong>[<a href="https://github.com/yuchen1024/HISE">code</a>]</strong> 
-<strong>[<a href="https://www.youtube.com/watch?v=FMbQTWUyHOk&ab_channel=TheIACR">video</a>]</strong> 
-<strong>[<a href="https://link.springer.com/chapter/10.1007/978-3-030-92075-3_18">springer</a>]</strong> 
-
-<li><strong>Fine-grained Secure Attribute-based Encryption</strong><br>
-Yuyu Wang, Jiaxin Pan, Yu Chen<br>
-CRYPTO 2021, LNCS 12828, pp.179-207.
-<strong>[<a href="https://www.youtube.com/watch?v=m-Fg-QmIikM&t=191s&ab_channel=TheIACR">video</a>]</strong> 
-<strong>[<a href="https://link.springer.com/chapter/10.1007/978-3-030-84259-8_7">springer</a>]</strong> 
-
-<li><strong>MPC-in-Multi-Heads: a Multi-Prover Zero-Knowledge Proof System (or: How to Jointly Prove Any NP Statements in ZK)</strong><br>
-Hongrui Cui, Kaiyi Zhang, Yu Chen, Zhen Liu, Yu Yu<br>
-ESORICS 2021, LNCS, vol 12973, pp.332-351.
-<strong>[<a href="https://www.youtube.com/watch?v=h7YWLVfsRUI">video</a>]</strong> 
-<strong>[<a href="https://link.springer.com/chapter/10.1007/978-3-030-88428-4_17">springer</a>]</strong> 
-</ul>
-
-<h3>2020</h3>
-<ul>
-
-<li><strong>PGC: Decentralized Confidential Payment System with Auditability</strong><br>
-Yu Chen, Xuecheng Ma, Cong Tang, Man Ho Au<br>
-ESORICS 2020, LNCS 12308, pp.591-610. <strong>[<a href="https://eprint.iacr.org/2019/319">eprint</a>]</strong>
-<strong>[<a href="docs/slides/PGC.pdf">slide</a>]</strong>
-<strong>[<a href="docs/slides/DCP.pdf">extended_slide</a>]</strong>
-<strong>[<a href="https://github.com/yuchen1024/libPGC">code</a>]</strong> 
-<strong>[<a href="https://www.youtube.com/watch?v=tQZDQHTKjsw">video</a>]</strong> 
-<strong>[<a href="https://link.springer.com/chapter/10.1007/978-3-030-58951-6_29">springer</a>]</strong>
-
-
-
-<li><strong>Public-Key Authenticated Encryption with Keyword Search Revisited: Security Model and Constructions</strong><br>
-Baodong Qin, Yu Chen, Qiong Huang, Ximeng Liu, Dong Zheng<br>
-Information Sciences, Vol.516, 2019, pp.515-528.
-
-
-<li><strong>Threshold Trapdoor Functions and Their Applications</strong> <br>    
-Binbin Tu, Yu Chen, Xueli Wang<br>
-IET Information Security, 2020, Vol.14(2), pp.220-231. 
-<strong>[<a href="https://arxiv.org/abs/1804.03783">arxiv</a>]</strong>
-
-<li><strong>A Survey of Threshold Cryptosystems</strong> <br>
-Binbin Tu, Yu Chen<br> 
-Journal of Cryptologic Research (密码学报), 2020, Vol.7(1), pp.1-14. 
-<strong>[<a href="http://www.jcr.cacrnet.org.cn/CN/abstract/abstract368.shtml">link</a>]</strong> 
-</ul>
-
-<h3>2019</h3>
-<ul>
-
-<li><strong>Adding Linkability to Ring Signatures with One-Time Signatures</strong> <br>    
-Xueli Wang, Yu Chen, Xuecheng Ma<br>
-ISC 2019, LNCS 11723, pp.445-464. <strong>[<a href="https://eprint.iacr.org/2019/371">eprint</a>]</strong> 
-
-
-<li> <strong>KDM Security for Identity-Based Encryption: Constructions and Separations</strong> <br>
-Yu Chen, Jiang Zhang, Yi Deng, Jinyong Chang<br>
-Information Sciences, Vol.486, 2019, pp.450-473 
-<strong>[<a href="http://eprint.iacr.org/2016/1020">eprint</a>]</strong> 
-</ul>
-
-<h3>2018</h3>
-<ul>
-    
-<li> <strong>Leakage-Resilient Cryptography from Puncturable Primitives and Obfuscation</strong><br>
-Yu Chen, Yuyu Wang, Hong-Sheng Zhou<br> 
-ASIACRYPT 2018, LNCS 11273, pp.575-606 <strong>[<a href="http://eprint.iacr.org/2018/781">eprint</a>]</strong> 
-    <strong>[<a href="docs/slides/LRC_from_iO.pdf">slides</a>]</strong>
-
-
-<li> <strong>Regular Lossy Functions and Their Applications in Leakage-Resilient Cryptography</strong><br>
-Yu Chen, Baodong Qin, Haiyang Xue<br> 
-CT-RSA 2018, LNCS 10808, pp.491-511 <strong>[<a href="http://eprint.iacr.org/2018/021">eprint</a>]</strong> 
-    <strong>[<a href="docs/slides/RLF.pdf">slides</a>]</strong> (Extended version appears at Theoretical Computer Science 2018)
-
-<li> <strong>Two Message Key Exchange with Strong Security from Ideal Lattices </strong><br>
-Zheng Yang, Yu Chen, Song Luo<br> 
-CT-RSA 2018, LNCS 10808, pp.98-115 <strong>[<a href="http://eprint.iacr.org/2018/361">eprint</a>]</strong>
-    <strong>[<a href="docs/slides/TMKE_from_ideal_lattices.pptx">slides</a>]</strong> 
-
-<li> <strong>On the Security of Classic Protocols for Unique Witness Relations</strong> <br>
-Yi Deng, Xuyang Song, Jingyue Yu, Yu Chen<br> 
-PKC 2018, LNCS 10770, pp.589-615 <strong>[<a href="http://eprint.iacr.org/2017/390">eprint</a>]</strong>
-
-</ul>
-
-<h3>2017</h3>
-<ul>
-<li> <strong>From Attack on Feige-Shamir to Construction of Oblivious Transfer</strong> <br>
-Jingyue Yu, Yi Deng, Yu Chen <br>
-Inscrypt 2017  
-</ul>
-
-<h3>2016</h3>
-<ul>
-<li> <strong>How to Make the Cramer-Shoup Cryptosystem Secure Against Linear Related-Key Attacks</strong><br>  
-Baodong Qin, Shuai Han, Yu Chen, Shengli Liu, Zhuo Wei<br>   
-Inscrypt 2016 
-
-<li> <strong>Programmable Hash Functions from Lattices: Short Signatures and IBEs with Small Key Sizes</strong> <br>   
-Jiang Zhang, Yu Chen, Zhenfeng Zhang <br>  
-CRYPTO 2016 <strong>[<a href="http://eprint.iacr.org/2016/523">eprint</a>]</strong>
-
-<li> <strong>Non-Malleable Functions and Their Applications</strong> <br>  
-Yu Chen, Baodong Qin, Jiang Zhang, Yi Deng, Sherman S. M. Chow <br>   
-PKC 2016 <strong>[<a href="http://eprint.iacr.org/2015/1253">eprint</a>]</strong>
-    <strong>[<a href="docs/slides/NMF.pdf">slides</a>]</strong> 
-
-<li> <strong>Generalized (Identity-Based) Hash Proof System and Its Applications</strong> <br>  
-Yu Chen, Zongyang Zhang, Dongdai Lin, Zhenfu Cao<br>   
-Security and Communication Networks, 2016, Vol.9(12), pp.1698-1716.
-<strong>[<a href="http://eprint.iacr.org/2013/002">eprint</a>]</strong>
-
-<li> <strong>Generic Constructions of Integrated PKE and PEKS</strong> <br>  
-Yu Chen, Jiang Zhang, Dongdai Lin, Zhenfeng Zhang<br>  
-Designs, Codes and Cryptography, 2016, Vol.78(2), pp.493-526. 
-<strong>[<a href="http://eprint.iacr.org/2012/692">eprint</a>]</strong>
-
-
-<li> <strong>Sakai-Ohgishi-Kasahara Identity-Based Non-Interactive Key Exchange Revisited and More</strong> <br>  
-Yu Chen, Qiong Huang, Zongyang Zhang<br>  
-International Journal of Information Security, 2016, Vol.15(1), pp.15-33. 
-<strong>[<a href="http://eprint.iacr.org/2014/310">eprint</a>]</strong>
-
-
-<li> <strong>Publicly Evaluable Pseudorandom Functions and Their Applications</strong> <br>  
-Yu Chen, Zongyang Zhang  <br>  
-Journal of Computer Security, 2016, Vol.24(2), pp.289-320.
-<strong>[<a href="http://eprint.iacr.org/2014/306">eprint</a>]</strong>
-</ul>
-
-
-<h3>2015</h3>
-<ul>
-<li> <strong> Black-Box Separations of Hash-and-Sign Signatures in the Non-Programmable Random Oracle Model</strong> <br>
-Zongyang Zhang, Yu Chen, Sherman S. M. Chow, Goichiro Hanaoka, Zhenfu Cao and Yunlei Zhao <br>
-Provsec 2015
-</ul>
-
-<h3>2014</h3>
-
-<ul>
-<li> <strong>Black-Box Separations for One-More (Static) CDH and Its Generalization</strong><br>
-Jiang Zhang, Zhenfeng Zhang, Yu Chen, Yanfei Guo, Zongyang Zhang <br>
-ASIACRYPT 2014 
-<strong>[<a href="https://www.iacr.org/archive/asiacrypt2014/88730230/88730230.pdf">iacr archive</a>]</strong>
-
-<li> <strong>PRE: Stronger Security Notions and Efficient Construction with Non-Interactive Opening</strong><br> 
-Jiang Zhang, Zhenfeng Zhang, Yu Chen <br>
-Theoretical Computer Science, Vol. 542, 2014, pp. 1-16. 
-<strong>[<a href="http://eprint.iacr.org/2012/664">eprint</a>]</strong>
-
-
-<li> <strong>Publicly Evaluable Pseudorandom Functions and Their Applications</strong>
-Yu Chen, Zongyang Zhang <br>
-SCN 2014
- 
-<li> <strong>Sakai-Ohgishi-Kasahara Non-Interactive Identity-Based Key Exchange Scheme, Revisited</strong><br> 
-Yu Chen, Qiong Huang, Zongyang Zhang <br>
-ACISP 2014
-
-<li> <strong>All-But-One Dual Projective Hashing and Its Applications</strong><br> 
-Zongyang Zhang, Yu Chen, Sherman S.M. Chow, Goichiro Hanaoka, Zhenfu Cao, Yunlei Zhao <br>
-ACNS 2014
-
-<li> <strong>CCA-secure IB-KEM from Identity-Based Extractable Hash Proof System</strong><br> 
-Yu Chen, Zongyang Zhang, Dongdai Lin, Zhenfu Cao <br> 
-The Computer Journal, Vol.57(10), 2014, pp. 1537-1556 
-<strong>[<a href="http://eprint.iacr.org/2013/033">eprint</a>]</strong>
-</ul>
-
-<h3>2013</h3>
-<ul>
-<li> <strong>Reflections on the Security Proofs of Boneh-Franklin Identity-Based Encryption Scheme</strong><br>
-Yu Chen, Liqun Chen, Dongdai Lin <br>
-Science China Mathematics (中国科学:数学), Vol.56 (7), 2013, pp. 1385-1401 
-</ul>
-
-<h3>2012</h3>
-<ul>
-
-<li> <strong>Anonymous Identity-Based Hash Proof Systems and Their Applications</strong><br>
-Yu Chen, Zongyang Zhang, Dongdai Lin, Zhenfu Cao <br>
-Provsec 2012
-
-<li> <strong>Identity-Based Extractable Hash Proof Systems and Their Applications</strong><br> 
-Yu Chen, Zongyang Zhang, Dongdai Lin, Zhenfu Cao <br>
-ACNS 2012
-
-<li> <strong>CCA-secure IB-KEM Based on the Computational Bilinear Diffie-Hellman Assumption </strong><br>
-Yu Chen, Liqun Chen, Zongyang Zhang <br>
-ICISC 2012 <strong>[<a href="http://eprint.iacr.org/2011/593">eprint</a>]</strong> 
-
-<li> <strong>The n-Diffie-Hellman Problem and Multiple-Key Encryption</strong><br> 
-Liqun Chen, Yu Chen <br>
-International Journal of Information Security, Vol.11(5), 2012, pp. 305-320. 
-<strong>[<a href="http://eprint.iacr.org/2011/397">eprint</a>]</strong>
-
-</ul>
-
-<h3>2011</h3>
-<ul>
-<li> <strong> The n-Diffie-Hellman Problem and Its Applications </strong><br>
-Liqun Chen, Yu Chen <br>
-ISC 2011 <strong>[<a href="docs/paper/ISC2011-paper.pdf">pdf</a>]</strong>
-
-<li> <strong>A New Leakage-Resilient IBE Scheme in the Relative Leakage Model </strong><br>
-Yu Chen, Song Luo, Zhong Chen <br>
-DBSec 2011 <strong>[<a href="docs/paper/DBSEC2011-paper.pdf">pdf</a>]</strong> 
-
-
-<li> <strong>A Novel Commutative Blinding Identity-Based Encryption Scheme </strong><br> 
-Yu Chen, Song Luo, Jianbin Hu, Zhong Chen <br>
-FPS 2011 <strong>[<a href="docs/paper/FPS2011-paper.pdf">pdf</a>]</strong> 
-
-
-<li> <strong>Generic Methods to Achieve Tighter Security Reductions for a Category of IBE Schemes </strong><br> 
-Yu Chen, Liqun Chen, Zhong Chen <br>
-ISPEC 2011 <strong>[<a href="http://eprint.iacr.org/2011/090">eprint</a>]</strong> <br>
-
-</ul>
-
-<h3>2010</h3>
-<ul>
-<li> <strong>Twin Bilinear Diffie-Hellman Inversion Problem and Its Application </strong><br>
-Yu Chen, Liqun Chen <br> 
-ICISC 2011
-
-<li> <strong>When ABE Meets RSS </strong><br>
-Yu Chen, Hyun Sung Kim, Jianbin Hu, Zhong Chen <br> 
-DBSec 2010
-
-<li> <strong>Identity-Based Encryption Based on DHIES </strong><br>
-Yu Chen, Manuel Charlemagne, Zhi Guan, Jianbin Hu, Zhong Chen <br>
-ASIACCS 2010
-
-</ul>
-
-<hr>
-
-<h2>Manuscripts</h2>
-
-<ul>
-
-
-<li><strong>Verifiable Secret Sharing Based on Fully Batchable Polynomial Commitment</strong><br>
-Xiangyu Kong, Min Zhang, Yu Chen<br>
-<strong>[<a href="https://eprint.iacr.org/2025/453">eprint</a>]</strong>
-
-<li><strong>Multi-Party Private Set Operations from Predicative Zero-Sharing</strong><br>
-Minglang Dong, Yu Chen, Cong Zhang, Yujie Bai, Yang Cao<br>
-<strong>[<a href="https://eprint.iacr.org/2025/640">eprint</a>]</strong> 
-
-<li><strong>k-out-of-n Proofs and Application to Privacy-Preserving Cryptocurrencies</strong><br>
-Min Zhang, Yu Chen, Xiyuan Fu, Zhiying Cui<br>
-<strong>[<a href="https://eprint.iacr.org/2025/884">eprint</a>]</strong>
-
-</ul>
-
-<hr>
-
-<h2>Personal</h2> 
-<p>
-I have many hobbies that convey incredible beauty, including Table-Tennis, Guitar, Chess, Chinese Martial Arts.
-</p>
-<hr>
-
-<h2>Useful Links</h2>
-<ul>
-<li><a href="https://www.zhihu.com/people/cycosmic/posts">我的知乎</a>
-</ul>
-
-<ul>
-<li><a href="https://github.com/yuchen1024">My Git</a>
-</ul>
-
-<hr>
-
-
-<h2>Post Address</h2>
-<ul>
-<li>Room 0324, Ganchang Building, Shandong University (Qingdao), Binghai Road No.72, Jimo, Qingdao, Shandong<br>
-<li>山东大学青岛市即墨区滨海路72号K4-324, 山东大学网络空间安全学院, 淦昌苑D座0324, 邮编: 266237
-</ul>
-
 
 </body>
 </html>
