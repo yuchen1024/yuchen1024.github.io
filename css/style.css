@@ -5,7 +5,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #000;
   background-color: #fff;
 }
 
@@ -43,7 +43,7 @@ nav ul {
 nav a {
   text-decoration: none;
   font-weight: bold;
-  color: #333;
+  color: #000;
 }
 
 nav a:hover {
