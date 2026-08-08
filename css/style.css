@@ -17,6 +17,7 @@ body {
 .container {
   margin: 0 auto;      /* ✅ 自动居中 */
   padding: 0 60px;     /* ✅ 两边留白，避免文字贴边 */
+  box-sizing: border-box;
 }
 
 /* 列表样式 */
@@ -31,7 +32,7 @@ ul li {
 }
 
 /* 导航栏 */
-nav ul {
+.main-nav ul {
   list-style: none;
   padding: 0;
   margin: 1em 0;
@@ -40,13 +41,13 @@ nav ul {
   gap: 1.2em;
 }
 
-nav a {
+.main-nav a {
   text-decoration: none;
   font-weight: bold;
   color: #000;
 }
 
-nav a:hover {
+.main-nav a:hover {
   color: #007acc;
 }
 
@@ -65,4 +66,54 @@ nav a:hover {
 .profile-image {
   flex-shrink: 0;     /* 照片固定大小，不被压缩 */
   text-align: right;
+}
+
+.profile-image img {
+  width: 360px;
+  max-width: 100%;
+  height: 200px;
+}
+
+/* Keep the desktop presentation unchanged; adapt only narrow screens. */
+@media (max-width: 700px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding-inline: 16px;
+  }
+
+  .profile-section {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+
+  .profile-text {
+    min-width: 0;
+  }
+
+  .profile-image {
+    order: -1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .profile-image img {
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    margin-inline: auto;
+  }
+
+  .site-links h3 {
+    line-height: 1.8;
+  }
+
+  .site-links h3 > span {
+    display: inline-block;
+    white-space: nowrap;
+  }
 }
