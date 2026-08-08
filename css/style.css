@@ -13,6 +13,23 @@ body {
   text-align: center;
 }
 
+/* A quiet wayfinding link for visitors who land on a secondary page directly. */
+.page-navigation {
+  margin: 0 0 1rem;
+}
+
+.home-link {
+  color: #555;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.home-link:hover,
+.home-link:focus-visible {
+  color: #007acc;
+  text-decoration: underline;
+}
+
 /* 内容容器：控制阅读宽度 + 居中 */
 .container {
   margin: 0 auto;      /* ✅ 自动居中 */
