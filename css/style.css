@@ -64,14 +64,16 @@ ul li {
 }
 
 .profile-image {
-  flex-shrink: 0;     /* 照片固定大小，不被压缩 */
+  flex: 0 0 200px;
+  width: 200px;
   text-align: right;
 }
 
 .profile-image img {
-  width: 180px;
-  max-width: 100%;
+  display: block;
+  width: 100%;
   height: auto;
+  box-sizing: border-box;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -99,14 +101,13 @@ ul li {
   .profile-image {
     order: -1;
     width: 100%;
+    flex: 0 0 auto;
     text-align: center;
   }
 
   .profile-image img {
-    display: block;
-    width: 180px;
+    width: 200px;
     max-width: 100%;
-    height: auto;
     margin-inline: auto;
   }
 
